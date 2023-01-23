@@ -1,0 +1,96 @@
+.normalfilters{
+        display: flex;
+        height: 1rem;
+        width: 100%;
+        h3{
+          margin: 0px;
+        }
+        .filter-apply{
+            height: 3rem;
+        }
+        .MuiButtonBase-root{
+          height: 5px;
+         }
+
+    .city-div,.place-div, .machine-div,.module-div, .measure-div{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 5px;
+        overflow: auto;
+       .type-div{
+         display:flex;
+         font-size: 85%;
+         input[type=checkbox] {
+          transform: scale(0.8);
+      }
+       }
+    }
+    .signal-div{
+      display: flex;
+      flex-direction: column;
+      border: 1px solid black;
+      border-radius: 10px;
+      padding: 5px;
+      height: 75vh;
+      overflow: auto;
+    }
+
+    .list-div{
+      display: flex;
+      flex-direction: column;
+
+
+      .MuiExpansionPanel-root{
+        border: 1px solid black;
+        .MuiButtonBase-root{
+          height: 1rem;
+         }
+        .MuiExpansionPanelDetails-root{
+        display:flex;
+        flex-direction: column;
+        width: 90%;
+        }
+       .MuiExpansionPanelSummary-root{
+         display:flex;
+       }
+      }
+     }
+    .search_signals-div{
+      display: flex;
+      flex-direction: column;
+      .search-div{
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .signal_labels{
+        display:flex;
+        flex-direction: column;
+      }
+
+    }
+    ::-webkit-scrollbar {
+        width: 10px;
+        border-radius: 20px;
+        right:4px;
+      }
+
+      /* Track */
+      ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey;
+        border-radius: 20px;
+      }
+
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: grey;
+        border-radius: 20px;
+      }
+
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: rgb(78, 74, 74);
+      }
+  }

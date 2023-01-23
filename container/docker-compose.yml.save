@@ -1,0 +1,13 @@
+version: ‘3’
+#  Created 04/06/2020
+db:
+  postgres:
+  image: postgres:latest
+  ports:
+    - 5432:5432
+
+monitoring:
+  grafana:
+  image: 'grafana:latest'
+  ports:
+    - 3000:3000

@@ -1,0 +1,25 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/**
+* Built using a CSS Grid layout
+* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout
+* https://css-tricks.com/snippets/css/complete-guide-grid/
+*/
+.container {
+    background-color: $color-grey-light-1;
+    display: grid;
+
+    //padding: 0 1rem; // Padding for sides
+
+    // define header height 8rem, 5rem for summary bar, 100% for search bar then as many rows as needed for content, min 30rem, max 1frame(rest of the screen)
+    // define 8rem for sidebar width, then a grid area for rest, min 6rem, max 1frame
+    grid-template-columns:  repeat(4, 1fr);
+    grid-column-gap: 10px;
+    grid-template-rows: auto auto auto;
+    overflow-y: hidden;
+}
+// grid-template-rows: 65px 80px 1fr;
+// grid-template-columns: [center-start] repeat(2, 1fr) [center-end];

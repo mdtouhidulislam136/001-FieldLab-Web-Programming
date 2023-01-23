@@ -1,0 +1,87 @@
+@import "../styles/abstracts/colors";
+
+.navbar {
+    background-color: $color-tuni;
+    // Define grid area being used by component
+    grid-row: 1;
+    grid-column: 1 / 5;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 11;
+
+
+    &__title {
+        width: 20%;
+        text-transform: uppercase;
+
+    }
+        &__connectionStatus {
+            padding-right: 10px;
+        }
+
+        &__popoverIcon {
+            color: $color-white;
+            padding-left: 10px;
+            cursor: pointer;
+        }
+        .SearchTable{
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .SearchField{
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            input{
+                width: 100px;
+              }
+        }
+
+
+
+/*
+    &__popover {
+        // Material-ui component styling here
+        .MuiPopover-paper {
+            background-color: $color-toolbar;
+            color: $color-white;
+            z-index: 1222;
+            padding: 0 15px;
+            box-shadow: 1px 1px 1px 2px $color-black;
+        }
+
+        &--title {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        &--content {
+            padding: 10px 10px;
+            display: flex;
+            flex-flow: column;
+        }
+
+        &--doc {
+            color: $color-white;
+            margin-bottom: 5px;
+            text-decoration: none;
+            &:hover {
+                color: $color-tuni;
+            }
+        }
+
+        // &--logout {
+
+        // }
+    }
+*/
+}

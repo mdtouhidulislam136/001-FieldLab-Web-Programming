@@ -1,0 +1,105 @@
+.BasicLineChart{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+
+
+
+     .ChartOptions{
+         display: flex;
+         border: 2px solid black;
+         height: 165px;
+         justify-content: space-evenly;
+
+
+      .label{
+         text-align: center;
+      }
+      .sideways{
+         display: flex;
+      }
+
+      .y-axis{
+         display: flex;
+         flex-direction: column;
+         form{
+            display: flex;
+            flex-direction: column;
+            input{
+               width: 5em;
+               }
+
+         }
+         .contents{
+            padding: 5px;
+            display: flex;
+            flex-direction: column;
+            }
+
+      }
+      .time-axis{
+         display: flex;
+         flex-direction: column;
+
+         .timeDiv{
+         display: flex;
+         flex-direction: column;
+
+         form{
+            padding: 5px;
+            display: flex;
+
+            input{
+               width: 2em;
+               }
+         }
+      }
+         .selectDiv{
+            display: flex;
+            .contents{
+            padding: 5px;
+            display: flex;
+            flex-direction: column;
+            }
+
+            }
+
+
+      }
+     }
+     .Chart_Time{
+        display: flex;
+        flex-direction: column;
+
+     .Chart{
+      border: 2px solid black;
+     }
+     .Timechart{
+      border: 2px solid black;
+     }
+     }
+     .DataInfo1 {
+        border: 2px solid black;
+        height: 115px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+
+        .VictoryContainer{
+         height: 115px;
+         flex-direction: column;
+         align-content: center;
+        }
+
+
+     }
+     .DataInfo2{
+      border: 2px solid black;
+      height: 115px;
+     }
+
+
+}

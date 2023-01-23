@@ -1,0 +1,19 @@
+
+/**
+* Styling for charts area in main view
+*/
+.graphs {
+    // define grid area being used, columns center-start to center-end, rows from row 3 to row 4
+    grid-column: 1 / 5;
+    grid-row: 3 / 4;
+    // gap between grids and a small margin for styling.
+    grid-gap: 1rem;
+    margin: 1rem;
+    // create additional grid area inside chosen grid, used if necessary.
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    overflow-y: scroll;
+    // Height definition fixes overflow problems
+    height: calc(100vh - 177px);
+    z-index: 11;
+}

@@ -1,0 +1,52 @@
+/**
+* MainPage chart's stylings are here, you can change the styling to a local styling file e.g BasicLineChart.scss file if you like.
+*/
+.graph {
+    //display: flex;
+    //flex-direction: column;
+    //align-items: center;
+    background-color: $color-grey-light-2;
+    //border: 2px solid red;
+    margin: 5px 5px;
+    border-radius: 5px;
+/*
+    &__selected {
+        grid-column: 1 / 3;
+
+        &--chart {
+
+        }
+
+        &--hint {
+            padding-bottom: 5px;
+            display: flex;
+            justify-content: center;
+            text-transform: uppercase;
+        }
+
+        // WIP
+        &--card {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+    }
+
+    &__popover {
+        background-color: $color-toolbar;
+
+        .MuiPopover-paper {
+            width: 75%;
+            height: 70%;
+            padding: 10px 10px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            overflow: hidden;
+        }
+
+    }
+    */
+
+}

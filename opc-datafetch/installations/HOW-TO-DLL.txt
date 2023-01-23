@@ -1,0 +1,5 @@
+COMMAND PROMPT (AS ADMIN): 
+
+go to directory where the .dll file is located and enter following line:
+
+regsvr32 gbda_aut.dll

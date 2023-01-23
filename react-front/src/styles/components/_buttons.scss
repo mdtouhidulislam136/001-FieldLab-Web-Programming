@@ -1,0 +1,22 @@
+// ADD PROJECT CUSTOM BUTTONS HERE
+.btn {
+    &--header {
+        margin-right: 5px;
+        font-size: 1.5rem;
+        font-weight: 600;
+        padding: 0 2rem;
+        color: $color-grey-dark;
+        // border: 1px solid $color-grey-dark;
+        background-color: $color-grey-light-2;
+        border: none;
+        // border-radius: 1rem;
+
+        &:hover {
+            transition: all .2s;
+            transform: translateY(-2px) scale(1.05);
+        }
+        &:focus {
+            color: $color-secondary-light;
+        }
+    }
+}

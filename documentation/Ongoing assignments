@@ -1,0 +1,22 @@
+Ongoing:
+
+team 6 = Finding a way to make Python read configuration settings from a
+text file so there is no need open the code for changing config.
+
+team 18 = Finding way to implement the clearScreen() function using C++
+        An equivalent clearScreen() function with C++ can be as follows:
+
+        void clearScreen() {
+            #ifdef __linux__ 
+                // if OS is linux-based
+                system("clear");
+            #elif _WIN64 || _WIN32 || __WINDOWS__
+                // if OS is windows-based
+                system("cls");
+            #else
+            #endif
+        }
+
+team 18 = researching OPC UA implementation 
+
+team 16 = front end (improve UI)
